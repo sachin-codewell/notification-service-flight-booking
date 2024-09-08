@@ -9,5 +9,6 @@ const app = express();
         if(!err){
             console.log(`sevrer is running fine on port:  ${serverConfig.PORT}`)
         }
+
     })
 })()
